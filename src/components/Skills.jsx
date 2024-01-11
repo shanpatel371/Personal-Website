@@ -1,11 +1,12 @@
 import React from "react";
 
-import HTMl from "../assets/html.png";
+import python from "../assets/python.png";
 import react from "../assets/react.png";
 import node from "../assets/node.png";
-import firebase from "../assets/firebase.png";
-import tailwind from "../assets/tailwind.png";
-import css from "../assets/css.png";
+import c from "../assets/c++.png";
+import git from "../assets/github.png";
+import swift from "../assets/swift.png";
+import java from "../assets/java.png";
 
 const Skills = () => {
   return (
@@ -21,28 +22,28 @@ const Skills = () => {
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8">
           <div className="shadow-md shadow-black hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={HTMl} alt="HTML icons" />
-            <p>HTML</p>
+            <img className="w-20 mx-auto" src={java} alt="HTML icons" />
+            <p>Java</p>
           </div>
           <div className="shadow-md shadow-black hover:scale-150 duration-500">
             <img className="w-20 mx-auto" src={react} alt="React icons" />
             <p>React</p>
           </div>
           <div className="shadow-md shadow-black hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={node} alt="HTML icons" />
-            <p>Javascript</p>
+            <img className="w-20 mx-auto" src={swift} alt="HTML icons" />
+            <p>Swift</p>
           </div>
           <div className="shadow-md shadow-black hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={firebase} alt="HTML icons" />
-            <p>Firebase</p>
+            <img className="w-20 mx-auto" src={python} alt="HTML icons" />
+            <p>Python</p>
           </div>
           <div className="shadow-md shadow-black hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={tailwind} alt="HTML icons" />
-            <p>tailwind</p>
+            <img className="w-20 mx-auto" src={git} alt="HTML icons" />
+            <p>Git</p>
           </div>
           <div className="shadow-md shadow-black hover:scale-150 duration-500">
-            <img className="w-20 mx-auto" src={css} alt="HTML icons" />
-            <p>CSS</p>
+            <img className="w-20 mx-auto" src={c} alt="HTML icons" />
+            <p>C++</p>
           </div>
         </div>
       </div>

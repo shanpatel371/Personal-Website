@@ -18,12 +18,13 @@ const Home = () => {
           skills in web development while gaining valuable experience in various
           iOS and Android frameworks.
         </p>
-        <div>
+        {/* <div>
           <button className="text-white border-4 px-4 py-2 flex items-center hover:bg-black hover:border-black">
             <div className="px-1">View Work</div>
             <HiArrowNarrowRight /> 
+            // Sorry, the button doesn't work. I am still working on a page for this button.
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
